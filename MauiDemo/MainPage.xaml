@@ -21,8 +21,8 @@
             <Label
                 Text="Bem vindo ao &#10;.NET Multi-platform App UI"
                 Style="{StaticResource SubHeadline}"
-                SemanticProperties.HeadingLevel="Leve12"
-                SemanticProperties.Description="Welcome to dot net Multi platform App U I" />
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Bem vindo ao dot net Multi platform App U I" />
 
             <Button
                 x:Name="CounterBtn"
@@ -30,6 +30,7 @@
                 SemanticProperties.Hint="Counts the number of times you click"
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Fill" />
+
         </VerticalStackLayout>
     </ScrollView>
 
