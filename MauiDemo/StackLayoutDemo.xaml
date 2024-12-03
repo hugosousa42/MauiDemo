@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiDemo.StackLayoutDemo"
+             Title="StackLayoutDemo">
+    <StackLayout Margin="20">
+        <Label 
+            Text="Texto 1" FontSize="20"
+            BackgroundColor="Yellow" />
+        <Label 
+            Text="Texto 2" FontSize="20"
+            BackgroundColor="Blue" />
+        <Label 
+            Text="Texto 3" FontSize="20"
+            BackgroundColor="Red" />
+        <StackLayout  Margin="20" Padding="20,10,20,0">
+            <Label 
+            Text="Texto 4" FontSize="20"
+                Margin="20"
+            BackgroundColor="Green" />
+            <Label 
+            Text="Texto 5" FontSize="20"
+                Margin="10,15"
+            BackgroundColor="Aqua" />
+            <Label 
+            Text="Texto 6" FontSize="20"
+                Margin="0,20,15,5"
+            BackgroundColor="Salmon" /> 
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
